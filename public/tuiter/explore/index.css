@@ -3,9 +3,11 @@
   }
 
 .wd.gear{
-    border-right:12px;
-    padding-left: 16px;
+    border-right:16px;
+    padding-left:130px;
     color:rgb(29,161,242);
+    text-decoration: none;
+    size:20px;
 }
 
 li {
@@ -15,7 +17,7 @@ color: rgb(110,118,125);
 width:unset;
 margin-top: 10;
 margin-bottom: 10;
-padding-left:130px;
+padding-left:140px;
     
   }
  
@@ -36,7 +38,7 @@ padding-left:130px;
 
 .wd.rounded-corners-all-around {
     border-radius: 200px;
-    width: 950px;
+    width: 1000px;
     margin-left:50px ;
     height: 40px;
     background-color: grey;
@@ -88,4 +90,6 @@ border-right: 16px;
     color:rgb(110,118,125);
 
 }
-  
+  .wd.tick{
+    color:white;
+  }
