@@ -1,0 +1,29 @@
+.wd.title{
+font-size: 20px;
+color: white;
+border-left: 16px;
+border-top: 12px;
+}
+.wd.body{
+    background-color: black;
+   
+}
+.wd.profile{
+    color: grey;
+    font-size: 13px;
+    border-left: 16px;
+    
+    
+}
+.wd.border{
+margin-bottom: 1px;
+color: grey;
+;
+}
+.wd.profileimages{
+    float:left;
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+}
