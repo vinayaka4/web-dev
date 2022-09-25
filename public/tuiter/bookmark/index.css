@@ -78,7 +78,8 @@ color: grey;
     max-height: max-content;
 }
 .wd.image.explainer.block{
-    
+   border-top: 1px solid grey;
+  
 }
 .wd.image.explainer{
     display:inline-block;
@@ -95,4 +96,16 @@ font-size: 15px;
 width: 506px;
 text-align:justify;
 padding-top: 0;
+}
+.wd.image.content.block{
+border:1px;
+border-style: solid;
+border-color: grey;
+border-radius: 20px 20px 20px 20px; 
+content:'';
+position:absolute;
+height:390px;
+width: 506px;
+
+
 }
