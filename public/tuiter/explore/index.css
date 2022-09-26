@@ -1,5 +1,6 @@
 .wd.nav{
     width:100%;
+    border-bottom:1px solid grey;
   }
 
 .wd.gear{
@@ -30,6 +31,7 @@ padding-left:140px;
  .wd.list .wd.listed.selected{
     color:rgb(29,161,242);
     padding-left:0px;
+    padding-bottom: 12px;
     border-bottom:solid 2px rgb(29,161,242);
     border-collapse: separate;
     border-spacing :10px;
@@ -38,7 +40,7 @@ padding-left:140px;
 
 .wd.rounded-corners-all-around {
     border-radius: 200px;
-    width: 1000px;
+    width: 980px;
     margin-left:50px ;
     height: 40px;
     background-color: grey;
@@ -48,6 +50,9 @@ padding-left:140px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:white;
     background-color: black;
+    border-top:1px solid grey;
+    border-left:1px solid grey;
+    border-right:1px solid grey;
     
 } 
 .wd.wrapper {
@@ -65,6 +70,8 @@ padding-left:140px;
     line-height: 0%;
     display:inline-block;
     height: min-content;
+    width:100%;
+    border-bottom: 1px solid grey;
 
      }
 .wd.float-left{
@@ -82,6 +89,8 @@ border-right: 16px;
 .wd.image-right{
     float:right;
     padding-left:1000px;
+    padding-right:16px;
+    padding-bottom: 5px;
 }
 
 
