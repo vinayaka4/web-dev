@@ -4,7 +4,7 @@
   }
 
 .wd.gear{
-    border-right:16px;
+    padding-right :16px;
     padding-left:130px;
     color:rgb(29,161,242);
     text-decoration: none;
@@ -21,7 +21,9 @@ margin-bottom: 10;
 padding-left:140px;
     
   }
- 
+ .wd.padding.list{
+  
+ }
   .wd.list{
     color: gray;
     width: 100%;
