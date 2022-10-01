@@ -1,10 +1,12 @@
 .wd.wrapper{
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    border-top: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
 }
-
+.wd.titile.block{
+    line-height: 0;;
+}
 .wd.title{
 font-size: 20px;
 color: white;
@@ -19,11 +21,11 @@ padding-top: 12px;
 }
 .wd.border{
     width:100%;
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px rgb(47, 51, 54);
     
 }
 .wd.section{
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px rgb(47, 51, 54);
 }
 .wd.profile{
     color: grey;
@@ -58,7 +60,8 @@ padding-top: 12px;
 .wd.profile.name{
     font-size: 15px;
     color:white;
-padding-left: 0px;
+padding-left: 12px;
+pad
    
 }
 
@@ -93,7 +96,7 @@ padding-left: 0px;
     max-height: max-content;
 }
 .wd.image.explainer.block{
-   border-top: 1px solid grey;
+   border-top: 1px solid rgb(47, 51, 54);
    padding-top: 12px;
    padding-right:12px;
    padding-bottom: 12px;
@@ -120,7 +123,7 @@ padding-top: 0;
 .wd.image.content.block{
 border:1px;
 border-style: solid;
-border-color: grey;
+border-color: rgb(47, 51, 54);
 border-radius: 20px 20px 20px 20px; 
 content:'';
 position:absolute;
@@ -131,15 +134,15 @@ width: 506px;
 }
 .wd.emoji{
     padding-top: 16px;
-    padding-left: 12px;
+    padding-left: 0px;
     list-style: none;
 }
 
 li{
     display:inline;
     color: grey;
-    padding-left:12px;
-padding-right:12px;
+padding-left: 0px;
+padding-inline: 40px;
 padding-top:12px;
 list-style: none;
    
