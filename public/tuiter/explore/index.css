@@ -4,11 +4,15 @@
   }
 
 .wd.gear{
-    padding-right :16px;
-    padding-left:130px;
+  padding-left:150px;
+    padding-right :12px;
+   
     color:rgb(29,161,242);
     text-decoration: none;
     size:20px;
+}
+.wd.gear.padding{
+  padding-left: 16px;
 }
 
 li {
@@ -26,6 +30,7 @@ padding-left:140px;
     width: 100%;
  font-size: 15px;
  padding: 16px, 16px ,16px ,16px;
+ padding-left: 16px;
   }
  .wd.list .wd.listed.selected{
     color:rgb(29,161,242);
@@ -40,7 +45,7 @@ padding-left:140px;
 .wd.rounded-corners-all-around {
     border-radius: 200px;
     width: 980px;
-    margin-left:50px ;
+    padding-left:0px;
     height: 40px;
     background-color: grey;
     color:white;
@@ -57,7 +62,7 @@ padding-left:140px;
 .wd.wrapper {
     width: 100%;
     margin: 0 ;
-    padding: 0 ;
+  
     list-style: none;
     height: fit-content;
   }
@@ -69,9 +74,9 @@ padding-left:140px;
     line-height: 0%;
     display:inline-block;
     height: min-content;
-    width:100%;
-    border-bottom: 1px solid rgb(47, 51, 54);
-
+    width:97.5%;
+   padding-left: 16px;
+  
      }
 .wd.float-left{
     float: left;
@@ -82,12 +87,11 @@ padding-left:140px;
 position: relative;
 border-radius: 25px 25px 25px 25px;
 
-border-right: 16px;
 
 }
 .wd.image-right{
     float:right;
-    padding-left:1000px;
+    padding-left:800px;
     padding-right:16px;
     padding-bottom: 5px;
 }
@@ -100,4 +104,15 @@ border-right: 16px;
 }
   .wd.tick{
     color:white;
+  }
+
+  .wd.section.block{
+    border-bottom:1px solid rgb(47, 51, 54);
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  .wd.search.bar{
+    padding-left: 16px;
+    padding-right: 12px;
   }
