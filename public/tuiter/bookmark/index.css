@@ -135,7 +135,7 @@ width: 506px;
 .wd.emoji{
     padding-top: 16px;
    padding-left:12px;
-    list-style: none;
+   
 }
 
 li{
@@ -143,20 +143,21 @@ li{
     color: grey;
  padding-inline-end:80px;   
 padding-top:12px;
-
+text-decoration: none;
 padding-top: 0px;
    
 }
 .wd.emoji.list{
+    text-decoration: none;
     display: inline;
     color: grey;
     
     
 }
 .wd.emoji.numbers{
+    text-decoration: none;
     padding-left:12px;
     color: grey;
-    list-style: none;
     
     
 
@@ -171,6 +172,6 @@ padding-top: 0px;
     
     text-decoration: none;
     color:grey;
-    list-style: none;
+    
     
 }
