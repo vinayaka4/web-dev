@@ -1,10 +1,12 @@
 .wd.wrapper{
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    border-top: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
 }
-
+.wd.titile.block{
+    line-height: 0;;
+}
 .wd.title{
 font-size: 20px;
 color: white;
@@ -19,11 +21,11 @@ padding-top: 12px;
 }
 .wd.border{
     width:100%;
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px rgb(47, 51, 54);
     
 }
 .wd.section{
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px rgb(47, 51, 54);
 }
 .wd.profile{
     color: grey;
@@ -50,16 +52,15 @@ padding-top: 12px;
     float: left;
   }
 .wd.float.right{
-    
-    padding-left: 12px;
-    padding-top: 12px;
+   
+  padding-top: 12px;
 }
 
 .wd.profile.name{
     font-size: 15px;
     color:white;
-padding-left: 0px;
-   
+
+    padding-left: 12px; 
 }
 
 .wd.profile.id{
@@ -81,10 +82,10 @@ padding-left: 0px;
 
 .wd.bookmark.image{
     border-radius: 30px 30px 0px 0px;
-    padding-top: 12px;
+    padding-right: 0px;
+    padding-bottom: 0px;
     display: inline-block;
-   
-    
+       
 }
 
 .wd.main.block{
@@ -93,7 +94,7 @@ padding-left: 0px;
     max-height: max-content;
 }
 .wd.image.explainer.block{
-   border-top: 1px solid grey;
+   border-top: 1px solid rgb(47, 51, 54);
    padding-top: 12px;
    padding-right:12px;
    padding-bottom: 12px;
@@ -108,6 +109,7 @@ padding-left: 0px;
     text-align: justify;
     width: 483px;
     padding-top: 12px;
+
 }
 .wd.image.explainer.light{
     display:inline-block;
@@ -116,11 +118,12 @@ font-size: 15px;
 width: 483px;
 text-align:justify;
 padding-top: 0;
+padding-bottom: 12px;
 }
 .wd.image.content.block{
 border:1px;
 border-style: solid;
-border-color: grey;
+border-color: rgb(47, 51, 54);
 border-radius: 20px 20px 20px 20px; 
 content:'';
 position:absolute;
@@ -131,38 +134,44 @@ width: 506px;
 }
 .wd.emoji{
     padding-top: 16px;
-    padding-left: 12px;
-    list-style: none;
+   padding-left:12px;
+   
 }
 
 li{
     display:inline;
     color: grey;
-    padding-left:12px;
-padding-right:12px;
+ padding-inline-end:80px;   
 padding-top:12px;
-list-style: none;
+text-decoration: none;
+padding-top: 0px;
    
 }
 .wd.emoji.list{
+    text-decoration: none;
     display: inline;
     color: grey;
-    list-style: none;
-
+    
+    
 }
 .wd.emoji.numbers{
+    text-decoration: none;
     padding-left:12px;
     color: grey;
-    list-style: none;
+    
+    
 
 }
 
 .wd.image.block.spacing{
     padding-left: 12px;
+    padding-bottom: 12px;
 }
 
 .wd.a.lifestyle{
-    list-style: none;
+    
     text-decoration: none;
     color:grey;
+    
+    
 }
