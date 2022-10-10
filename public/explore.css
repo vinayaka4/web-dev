@@ -1,0 +1,14 @@
+.wd.glass{
+    bottom :10px;
+    left:10px;
+  }
+.wd.background{
+    background-color: black;
+}
+  .wd.serach.bar{
+    color: grey;
+  }
+  .border-3 {
+    border-width:2px !important;
+}
+
