@@ -1,6 +1,5 @@
 import React from "react";
-import PostSummaryList1 from "../home-component/index.js";
-import HomeComponent from "../home/index.js";
+
 import PostSummaryList from "../post-summary-list/index.js";
 import "./index.css";
 const ExploreComponent = () => {
