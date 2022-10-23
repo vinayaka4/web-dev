@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Labs from './labs';
+import Nav from './nav';
+import Tuiter from './tuiter';
+import {BrowserRouter} from "react-router-dom";
+import {Route,Routes} from  "react-router";
+import {Link} from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          hello hi attempt1 <code>good try</code> 
-        </p>
-        <h2> this is assignment 2</h2>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="container">
+       <Nav/>
+        <Routes>
+          <Route index element={<h1>Hello</h1>}/>
+          <Route path="/labs" element={<Labs/>}/>
+          <Route path="/tuiter/*" element={<Tuiter/>}/>
+
+         
+        </Routes>
+        
+        
+         
+     
+      </div>
+    </BrowserRouter>
   );
 }
 

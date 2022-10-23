@@ -1,0 +1,31 @@
+[{ "_id": 123, 
+"topic": "Space",
+ "userName": "SpaceX",
+ "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+ "time": "2h",  
+ "image": "mars.jpg" , 
+"profilepic": "space.jpg",
+ "handle": "@Spacex",
+"post"   : "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+"retweet" : "Elon musk retweeted this",
+"show"    :"Show this thread",
+"comments":"50k",
+"retuits":"100k",
+"likes":"89k"
+},
+
+ { "_id": 234, 
+ "topic": "Space", 
+   "userName": "ElonMusk",
+   "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+   "time": "15h",  
+   "image": "retweet.jpg" ,
+   "profilepic": "elonmusk.jpg",
+ "handle": "@ElonMusk",
+"post"   : "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+"comments":"78k",
+"retuits":"18k",
+"likes":"80k"
+}
+]
+
