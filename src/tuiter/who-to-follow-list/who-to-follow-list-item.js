@@ -9,7 +9,7 @@ const WhoToFollowListItem = (
   <li className="list-group-item">
    <div className="row">
      <div className="col-4">
-       <img className="rounded-circle" height={38} src={`/images/${who.avatarIcon}`}/>
+       <img alt ="profile" className="rounded-circle" height={38} src={`/images/${who.avatarIcon}`}/>
      </div>
      <div className="col-6">
        <div className="fw-bold">{who.userName}</div>
