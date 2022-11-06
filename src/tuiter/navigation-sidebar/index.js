@@ -20,10 +20,12 @@ const NavigationSidebar = ()=>{
            Home
         </Link>
        
-        <Link to="/tuiter/explore1" className={`list-group-item ${active === 'explore'?'active':''}`}>
+        <Link to="/tuiter/explore1" className={`list-group-item ${active === 'explore1'?'active':''}`}>
+
         <i className="bi bi-hash"></i>
        Explore
        </Link>
+      
        <Link to="/" className="list-group-item">
        <i className="bi bi-tag"></i>
        Labs
@@ -49,11 +51,10 @@ const NavigationSidebar = ()=>{
                         <i className="bi bi-list"></i>
           Lists
         </a>
-        <a  href="https://www.lipsum.com" className={`list-group-item
-                       ${active === 'profile'?'active':''}`}>
+        <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
                         <i className="bi bi-person-fill"></i>
           Profile
-        </a>
+        </Link>
         <a href="https://www.lipsum.com" className={`list-group-item
                        ${active === 'more'?'active':''}`}>
                         <i className="bi bi-three-dots"></i>
