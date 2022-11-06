@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from "../nav";
 import A6 from "./a6";
 import A7 from "./a7";
 import {Routes, Route} from "react-router";
