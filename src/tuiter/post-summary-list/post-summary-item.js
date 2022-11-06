@@ -7,14 +7,15 @@ const PostSummaryItem = (
  return(
   <li className="list-group-item">
    <div className="row">
-     <div className="col-10">
-       <div>{post.userName} . {post.time}</div>
-       <div className="fw-bolder">{post.topic}</div>
-       <div>{post.title}</div>
+     <div className="col-1 ps-0 ">
+          <img  alt="profile" className="float-left float-start rounded-circle" src={`/images/${post.profilepic}`} height ={45} width={45}/>
      </div>
-     <div className="col-2 pt-4">
-       <img  alt="profile" width={80} className="float-end rounded-3" src={`/images/${post.image}`}/>
+     <div className="col-11">
+       <div className=" fw-bold">{post.userName}</div> <span className=" fw-muted"> {post.handle}</span>  
+       
+       <div className=" p-1">{post.tweets}</div>
      </div>
+     
    </div>
   </li>
  );
