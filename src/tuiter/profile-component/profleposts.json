@@ -1,0 +1,17 @@
+[{ "_id": 123, 
+
+ "userName": "Vinayak",
+ "image": "mars.jpg" , 
+"profilepic": "space.jpg",
+ "handle": "@Vin",
+"bio"   : "Web development enthusiats",
+"location":"Boston",
+"dob":"5th jan",
+"join":"feb 2009",
+"followers":"200",
+"follows":"300"
+}
+
+ 
+]
+

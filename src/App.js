@@ -3,6 +3,7 @@ import Nav from './nav';
 import Tuiter from './tuiter';
 import {BrowserRouter} from "react-router-dom";
 import {Route,Routes} from  "react-router";
+import React from 'react'
 function App() {
   return (
     <BrowserRouter>
