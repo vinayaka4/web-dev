@@ -56,7 +56,7 @@ const PostSummaryItem1 = (
             <a className="nav-link text-muted" href="https://www.lipsum.com"><i className="bi bi-chat text-muted"></i>  {tuit.comments}</a>
           </li>
           <li className="nav-item">
-          <a href="google.com">
+          <a  className="nav-link text-muted" href="https://www.lipsum.com ">
             { tuit.liked && <FontAwesomeIcon icon={faSolidHeart} className="pe-2 text-danger fa-1x"/> }
              { !tuit.liked && <i className="bi bi-heart text-muted"></i> }
             {tuit.retuits}
