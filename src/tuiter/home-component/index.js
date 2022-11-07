@@ -7,9 +7,10 @@ const PostSummaryList1 = () => {
  return(
    <ul className="list-group">
      {
-       tuitsArray.map(tuit =>
+       tuitsArray.map((tuits,_id) =>
          <PostSummaryItem1
-           key={tuit._id} tuit={tuit}/> )
+           key={tuits._id} tuits={tuits}/> 
+           )
            
      }
    </ul>
