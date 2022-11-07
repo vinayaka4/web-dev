@@ -6,16 +6,18 @@ const WhatsHappening = () => {
  let [whatsHappening, setWhatsHappening] = useState('');
  const dispatch = useDispatch();
 
- const tuitClickHandler = () => {const newTuit = {
-    tuit: whatsHappening
+ const tuitClickHandler = () => {
+  const newTuit = {
+    tweets: whatsHappening
   }
   dispatch(createTuit(newTuit));
 
+   console.log(whatsHappening);
  }
  return (
    <div className="row">
      <div className="col-auto">
-       <img className=" rounded-circle" alt="profi" src="/images/nasa.jpg" width={60} height={60}/>
+       <img alt="img" className ="rounded-circle"src="/images/nasa.jpg" width={60} height={60}/>
      </div>
      <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"

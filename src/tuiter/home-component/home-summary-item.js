@@ -2,7 +2,7 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import deleteTuit from "../tuits/tuits-reducer";
+import {deleteTuit} from "../tuits/tuits-reducer";
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { faHeart as faSolidHeart} from '@fortawesome/free-solid-svg-icons'
@@ -14,7 +14,7 @@ library.add( faSolidHeart)
 
 const PostSummaryItem1 = (
  {
-   tuit=[ { "_id": 123, 
+   tuits={ "_id": 123, 
    "topic": "Space",
     "userName": "SpaceX",
     "time": "2h",  
@@ -26,7 +26,6 @@ const PostSummaryItem1 = (
    "likes":"89k",
    "liked":false,
    },
-  ]
  }
 ) => {
   const dispatch = useDispatch();
@@ -38,34 +37,34 @@ const PostSummaryItem1 = (
   <li className="list-group-item">
    <div className="row">
      <div className="col-1 ps-0 ">
-          <img  alt="profile" className="float-left float-start rounded-circle" src={`/images/${tuit.profilepic}`} height ={45} width={45}/>
+          <img  alt="profile" className="float-left float-start rounded-circle" src={`/images/${tuits.profilepic}`} height ={45} width={45}/>
      </div>
      <div className="col-11">
      <span><i className="bi bi-x-lg float-end"
-                                     onClick={() => deleteTuitHandler(tuit._id)}></i>
+                                     onClick={() => deleteTuitHandler(tuits._id)}></i>
                             </span>
       
-        <div className=" fw-bold">{tuit.userName} <i className="text-primary bi bi-check-circle-fill"/> <span className="text-muted"> {tuit.handle} - {tuit.time} </span> </div>
-        <div className=" p-1">{tuit.tweets}</div>
+        <div className=" fw-bold">{tuits.userName} <i className="text-primary bi bi-check-circle-fill"/> <span className="text-muted"> {tuits.handle} - {tuits.time} </span> </div>
+        <div className=" p-1">{tuits.tweets}</div>
               
             
 
 
         <ul className="nav   align-items-center nav-justified mt-2 p-0">
           <li className="nav-item">
-            <a className="nav-link text-muted" href="https://www.lipsum.com"><i className="bi bi-chat text-muted"></i>  {tuit.comments}</a>
+            <a className="nav-link text-muted" href="https://www.lipsum.com"><i className="bi bi-chat text-muted"></i>  {tuits.comments}</a>
           </li>
           <li className="nav-item">
           <a className="nav-link text-muted" href="https://www.lipsum.com ">
-            { tuit.liked && <FontAwesomeIcon icon={faSolidHeart} className="pe-2 text-danger fa-1x"/> }
-             { !tuit.liked && <i className="bi bi-heart text-muted"></i> }
-            {tuit.retuits}
+            { tuits.liked && <FontAwesomeIcon icon={faSolidHeart} className="pe-2 text-danger fa-1x"/> }
+             { !tuits.liked && <i className="bi bi-heart text-muted"></i> }
+            {tuits.retuits}
             </a>
           </li>
           
           <li className="nav-item">
          
-            <a className="nav-link text-muted" href="https://www.lipsum.com"><i className="bi bi-arrow-repeat text-muted"></i> {tuit.likes}</a>
+            <a className="nav-link text-muted" href="https://www.lipsum.com"><i className="bi bi-arrow-repeat text-muted"></i> {tuits.likes}</a>
             
           </li>
           <li className="nav-item">
