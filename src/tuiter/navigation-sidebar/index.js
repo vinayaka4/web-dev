@@ -14,7 +14,7 @@ const NavigationSidebar = ()=>{
         <a className="list-group-item" href="https://www.lipsum.com">Tuiter</a>
     
         
-        <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
+        <Link to="/tuiter/home1" className={`list-group-item ${active === 'home1'?'active':''}`}>
 
            <i className="bi bi-house-door-fill"></i>             
            Home
